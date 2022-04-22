@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary")
+
+cc_binary(
+    name = "leetcode",
+    srcs = ["problems/contains_duplicate.cpp"],
+    deps = ["@com_google_googletest//:gtest_main"]
+)
