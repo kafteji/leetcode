@@ -4,6 +4,6 @@ cc_binary(
     name = "leetcode",
     srcs = glob(["problems/**/*.cpp"]),
     deps = [
-        "@google_googletest//:gtest_main",
-    ]
+        "@googletest//:gtest_main",
+    ],
 )

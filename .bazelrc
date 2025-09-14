@@ -1,3 +1,2 @@
-build --compilation_mode=dbg --action_env=BAZEL_CXXOPTS="\
--std=c++20:\
--Werror"
+common --enable_bzlmod
+build --compilation_mode=dbg --action_env=BAZEL_CXXOPTS="-std=c++20:-Werror:-Wall"
