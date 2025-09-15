@@ -1,4 +1,6 @@
-// https://leetcode.com/problems/find-a-peak-element-ii/
+/*
+ * https://leetcode.com/problems/find-a-peak-element-ii/
+ */
 #include <gtest/gtest.h>
 #include <algorithm>
 #include <limits>
